@@ -23,9 +23,9 @@
 
       <h3>Mes sources</h3>
       <ul>
-          <li><a href="#">Menu hamburger</a></li>
-          <li><a href="#">PDO</a></li>
-          <li><a href="#">jQuery</a></li>
+          <li><a href="http://codepen.io/corysimmons/pen/KbFcg" target="_blank">Menu hamburger</a></li>
+          <li><a href="http://php.net/manual/fr/book.pdo.php" target="_blank">PDO</a></li>
+          <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
           <li></li>
       </ul>
 
