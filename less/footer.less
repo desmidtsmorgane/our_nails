@@ -1,0 +1,98 @@
+/**** FOOTER.PHP ****/
+footer {
+	height: 3em;
+	padding: 1em 0 0.5em 0;
+	font-size: 14px; 
+
+	#container_footer {
+		max-width: 73em;
+		margin: 0 auto;
+	}
+
+	ul {
+		li {
+			display: block;
+			float: left; margin-right: 1.5em;
+
+			#twitter, #facebook, #instagram {
+
+				* {
+				  pointer-events: fill;
+				}
+
+				path {
+				  -webkit-transition: fill .4s ease;
+				  -moz-transition: fill .4s ease;
+				  -ms-transition: fill .4s ease;
+				  transition: fill .4s ease;
+				}
+
+					&:hover path {
+					  fill: @color_link_hover;
+					}
+			}
+
+			a {
+				&:hover {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+
+	p {
+		width: 12em;
+		padding-top: 0.3em;
+		display: block;
+		margin: 0 auto;
+	}
+
+	a.contact {
+		margin-top: -1.5em;
+		float: right;
+	}
+}
+
+@media (max-width: 768px) {
+	footer {
+		#container_footer {
+			max-width: 39em;
+
+			p {
+				width: 8.5em;
+			}
+		}
+
+	}
+}
+
+@media (max-width: 400px) {
+	footer {
+		#container_footer {
+			max-width: 20em;
+			ul {
+				overflow: hidden;
+				clear: both;
+				margin: 0 auto;
+				width: 53%;
+
+				li {
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+			p {
+				clear: both;
+				margin-top: 1.5em; margin-bottom: 1.5em;
+			}
+
+			a.contact {
+				margin-top: 0;
+				float: none;
+				padding-bottom: 1.5em;
+			}
+		}
+	}
+}
+
