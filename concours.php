@@ -1,35 +1,112 @@
 <?php include('config.php') ?>
-<?php $page = 'concours'; ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Concours | Our Nails - Nail Art</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Morgane Desmidts - Web Designer">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" />
-  <link rel="shortcut icon" href="img/favicon.png" />
-</head>
+<?php $page = 'concours'; 
+?><!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <title>Concours | Our Nails - Nail Art</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Morgane Desmidts - Web Designer">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" />
+      <link rel="shortcut icon" href="img/favicon.png" />
+    </head>
 
-<body>
+    <body>
 
-<?php include('header.php');?>
+    <?php include('head.php');?>
 
-<div id="container">
-<section id="concours">
-  <h1>Concours</h1>
+    <div id="container">
+    <section id="concours">
+      <h2>Concours</h2>
 
-    <p>Participe au concours sur le thème de «l’été», cele qui obtiendra le plus de votes gagnera ce lot:</p>
-    <p>Un gel monophasé, deux gels colorés et 3 limes.</p>
-    <p>Pour ce faire, envoi moi une photo de ta pose avec ton prénom inscrit par-dessus à l’adresse suivante:</p>
+        <p>Participe au concours sur le thème de «l’été», celle qui obtiendra le plus de votes gagnera ce lot:</p>
+        <p>Un gel monophasé, deux gels colorés et 3 limes.</p>
+        <p>Pour ce faire, envoi moi une photo de ta pose avec ton prénom inscrit par-dessus.</p>
 
-    <a href="#" class="button">our-nails@gmail.com</a>
+        <a href="mailto:desmidts.morgane@gmail.com" class="button">Envoyer ma photo</a>
+        <ul>
+            <li>
+              <div class="morgane"></div>
+              <svg version="1.1" id="vote_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+              <svg version="1.1" id="vote_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                  <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                  <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+            </li>
+            <li>
+              <div class="carine"></div>
+              <svg version="1.1" id="vote_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+              <svg version="1.1" id="vote_8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                  <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                  <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+            </li>
+            <li>
+              <div class="catherine"></div>
+              <svg version="1.1" id="vote_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+              <svg version="1.1" id="vote_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                  <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                  <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+            </li>
+            <li>
+              <div class="maureen"></div>
+              <svg version="1.1" id="vote_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="30.667px" viewBox="0 0 34.667 30.667" enable-background="new 0 0 34.667 30.667" xml:space="preserve">
+                <path fill="#E72D71" d="M23.405,3.296c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383S3.232,18.38,3.232,11.005 c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184C18.575,4.554,20.84,3.296,23.405,3.296z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M454.504,15.342c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C449.674,16.6,451.94,15.342,454.504,15.342z"/>
+              </svg>
+              <svg version="1.1" id="vote_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+              <svg version="1.1" id="vote_16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.667px" height="29.333px" viewBox="0 0 34.667 29.333" enable-background="new 0 0 34.667 29.333" xml:space="preserve">
+                  <path fill="#E72D71" d="M-17.928,5.242c4.258,0,7.71,3.453,7.71,7.709c0,7.037-13.94,16.383-13.94,16.383 s-13.942-9.008-13.942-16.383c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C-22.758,6.5-20.493,5.242-17.928,5.242z"/>
+                  <path fill="none" stroke="#E72D71" stroke-miterlimit="10" d="M23.565,3.296c4.258,0,7.71,3.453,7.71,7.709 c0,7.037-13.94,16.383-13.94,16.383S3.392,18.38,3.392,11.005c0-5.299,3.453-7.709,7.708-7.709c2.566,0,4.83,1.258,6.234,3.184 C18.735,4.554,21,3.296,23.565,3.296z"/>
+              </svg>
+            </li>
+        </ul>
+    </section> <!-- end concours -->
+    </div> <!-- end container -->
 
-</section> <!-- end concours -->
-</div> <!-- end container -->
+    <?php include('footer.php');?>
 
-<?php include('footer.php');?>
-
-</body>
+    </body>
 </html>
