@@ -28,5 +28,5 @@
         </ul>
         <p>© 2015 - Our Nails</p>
         <a href="a_propos.php" class="contact">À propos</a>
-      </div>
+      </div> <!-- container_footer -->
   </footer>
